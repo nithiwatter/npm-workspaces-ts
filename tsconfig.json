@@ -1,8 +1,11 @@
 {
-  "include": ["packages/a/index.tsx"],
+  "include": ["packages/b/index.ts"],
+  // "exclude": ["node_modules"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
-
+    "explainFiles": true,
+    // "rootDir": ".",
+    // "jsx": "react",
     /* Projects */
     // "incremental": true,                              /* Enable incremental compilation */
     // "composite": true,                                /* Enable constraints that allow a TypeScript project to be used with project references. */
